@@ -22,6 +22,14 @@ var greenthing = getImage("avatars/leafers-tree");
     text("PLAY!", 174, 297);
   };
     
+       var drawbutton2 = function () {
+    fill(82, 130, 133);
+    rect(137, 331, 136, 52, 143);
+    fill(189, 15, 15);
+    textSize(22);
+    text("About Us", 160, 366);
+  };
+    
 
 
 
@@ -240,6 +248,7 @@ var drawscene1 = function () {
         
         noStroke();
         drawbutton();
+          drawbutton2();
         
   };
   
