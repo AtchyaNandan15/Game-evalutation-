@@ -772,15 +772,16 @@ draw = function() {
 
 		text("score: " + greenthing.score, 150, 30);
 
+println(greenthing.score);
 
-
-		if (greenthing.coin1 / coin1.length >= 0.35) {
+		if (greenthing.score / coin1.length >= 0.035) {
+println("hi");
 
 			fakescene();
 
 		}
 		
-		if (greenthing.coin1 / coin1.length >= 0.05) {
+		if (greenthing.score / coin1.length >= 0.05) {
 
 			//VM
 
